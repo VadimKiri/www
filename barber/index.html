@@ -1,0 +1,147 @@
+<DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title="Barbershoop">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header class="main-header">
+		<nav class="main-nav">
+			<a class="main-header-logo">
+				<img src="img/index-logo.png" width="368px" heigth="153px" alt="Логотип барбершопа Бородинский">
+			</a>
+		<ul class="site-nav">
+			<li><a href="info.html">Информация</a></li>
+			<li><a href="news.html">Новости</a></li>
+			<li><a href="price.html">Прайс лист</a></li>
+			<li><a href="catalog.html">Магазин</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<ul>
+			<li class="login-url">Вход</li>
+		</ul>
+		</nav>
+	</header>
+
+	<main class="conteiner">
+		<h1 class="visuali-hidden">Барбершоп Бородинский</h1>
+
+	<seaction class="features">
+		<h2 class="visuali-hidden">Преимущества</h2>
+			<ul class="features-list">
+				<li class="features-item">Быстро</li>
+				<p>Делаем свою работы быстро</p>
+				<li class="features-item">Круто</li>
+				<p>Делаем свою работу качественно</p>
+				<li class="features-item">Дорого</li>
+				<p>И, конечно, оправданно дорого</p>
+			</ul>
+	</seaction>
+
+	<seaction class="news">
+		<h2>Новости</h2>
+		<ul class="news-list">
+			<li class="news-item">
+				<p>Наконец-то мы можем вам о чем-то рассказать</p>
+				<time datetime="2018-01-11">11 января</time>
+			</li>
+			<li class="news-item">
+				<p>В нашей команде пополнение!</p>
+				<time datetime="2018-01-18">18 января</time>
+			</li>
+		</ul>
+		<a class="button" href="news.html">Все новости</a>
+	</seaction>
+
+	<section>
+		<h2>Фотогалерея</h2>
+		<figure class="gallery-content">
+			<a href="#"><img src="img/image-studio-1.jpg" width="286px" heigth="164px" alt="Интерьер"></a>
+		</figure>
+		<span class="button gallery-button gallery-button-back">Назад</span>
+		<span class="button gallery-button gallery-button-next">Вперед</span>
+	</section>
+
+	<section class="contacts">
+		<h2>Контактная информация</h2>
+		<p>Барбершоп Бородинский<br>
+			Адресс: г. Санкт-Петербург<br>
+			Телефон: +6 (666) 666-66-66
+		</p>
+		<p>Время работы:<br>
+			ПН-ПТ: с 12.00 до 13.15<br>
+			СБ-ВС: с 7.00 до 11.11
+			<p>
+		<a class="buttons contacts-buttons" href="map.html">Как проехать</a>
+		<a class="buttons contacts-buttons" href="contacts/html">Обратная связь</a>
+	</section>
+
+	<seaction>
+		<h2>Записаться</h2>
+		<p class="appointment-info">Укажите желаемое время приема</p>
+		<form class="appointment-form" action="https://www.vk.com" method="post">
+			<p class="appointment-item">Дата
+				<input type="text" name="data" value="" placeholder="08.01.1999">
+			</p>
+			<p class="appointment-item">Время
+				<input type="text" name="time" value="" placeholder="11.00">
+			</p>
+			<p class="appointment-item">Ваше Имя
+				<input type="text" name="name" value="" placeholder="Игнат">
+			</p>
+			<p class="appointment-item">Телефон
+				<input type="text" name="phone" value="" placeholder="+7 (666) 666 66 66">
+			</p>
+			<button class="button" type="submit">Отправить</button>
+		</form>
+	</seaction>
+</main>
+
+<footer class="main-footer">
+	<p class="footer-contacts">
+		Барбершоп Бородинский<br>
+		Адресс: г. Санкт-Петербург<br>
+		<a href="map.html">Как нас найти?</a><br>
+		Телефон: +6 (666) 666-66-66
+	</p>
+	<div class="fotter-social">
+		<p><b>Давайте дружить</b></p>
+		<ul>
+			<li class="social-buttons" href="#">Вконтакте</a></li>
+			<li class="social-buttons" href="#">Фэйсбух</a></li>
+			<li class="social-buttons" href="#">Инста</a></li>
+		</ul>
+	</div>
+	<p class="footer-copyright"><b>Разбработано</b>
+	<a class="button" href="http://Vaidorstudio.ru">Vaidor Studio</a>
+	</p>
+</footer>
+
+<section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Войти</p>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <input class="login-icon-user" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+          <input class="login-icon-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-password-info">
+          <input type="checkbox" name="remember" class="visually-hidden">
+          Запомнить
+          <a class="restore" href="#">Я забыл пароль</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+      </form>
+      <span class="modal-close">x</span>
+    </section>
+    
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <span class="modal-close">x</span>
+    </section>
+
+</body>
+</html>
