@@ -4,6 +4,7 @@ body {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   line-height: 1.875;
+  background: #333;
 }
 
 h1 {
@@ -21,3 +22,4 @@ h2 {
   line-height: 1;
   text-align: left;
 }
+
