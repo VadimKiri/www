@@ -1,3 +1,10 @@
+body {
+	font-size: 28px;
+	background-image: url("barber/img/bg.jpg");
+  }
+
+
 p {
 	background-color: red;
 }
+
